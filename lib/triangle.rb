@@ -8,7 +8,7 @@ class Triangle
   end 
   
   def side_valid 
-    if true = [(side_a + side_b > side_c), (side_b + side_c > side_a), (side_c + side_a > side_b)]
+    if [(side_a + side_b > side_c), (side_b + side_c > side_a), (side_c + side_a > side_b)]
       true 
     else 
       false 
