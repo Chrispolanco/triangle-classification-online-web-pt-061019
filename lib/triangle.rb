@@ -24,6 +24,8 @@ class Triangle
   end 
   
   def kind 
+    if side_valid && greater_zero == true 
+      
   
   end
   
