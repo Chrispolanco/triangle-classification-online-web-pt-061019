@@ -16,7 +16,11 @@ class Triangle
   end 
   
   def greater_zero
-    if side_a <=
+    if side_a <= 0 || side_b <= 0 || side_c <=0 
+      false 
+    else 
+      true 
+    end 
   end 
   
   def kind 
