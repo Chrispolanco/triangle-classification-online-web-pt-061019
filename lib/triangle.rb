@@ -7,8 +7,12 @@ class Triangle
     @side_c = side_c
   end 
   
-  def valid_triangle 
+  def side_valid 
     if true = [(side_a + side_b > side_c), (side_b + side_c > side_a), (side_c + side_a > side_b)]
+      true 
+    else 
+      false 
+    end 
   end 
   
   def kind 
