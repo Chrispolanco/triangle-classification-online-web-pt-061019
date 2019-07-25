@@ -8,7 +8,7 @@ class Triangle
   end 
   
   def valid_triangle 
-    if 
+    if valid = [side_a + side_b ]
   end 
   
   def kind 
