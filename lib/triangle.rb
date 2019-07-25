@@ -25,9 +25,9 @@ class Triangle
   
   def kind 
     if side_valid && greater_zero == true 
-      if a == b && b == c
+      if side_a == side_b && side_b == side_c
         :equilateral
-      elsif a == b || b == c || a == c
+      elsif side_a == side_b || side_b == side_c || side_a == side_c
         :isosceles
       else
         :scalene
