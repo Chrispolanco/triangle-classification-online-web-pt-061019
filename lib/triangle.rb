@@ -15,6 +15,10 @@ class Triangle
     end 
   end 
   
+  def greater_zero
+    if side_  
+  end 
+  
   def kind 
   
   end
