@@ -7,7 +7,12 @@ class Triangle
     @side_c = side_c
   end 
   
-  def kind 
+  def valid_triangle 
     if 
   end 
+  
+  def kind 
+  
+  end
+  
 end
