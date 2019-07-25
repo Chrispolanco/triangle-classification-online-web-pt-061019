@@ -16,7 +16,7 @@ class Triangle
   end 
   
   def greater_zero
-    if side_  
+    if side_a <=
   end 
   
   def kind 
